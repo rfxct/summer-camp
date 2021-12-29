@@ -26,6 +26,21 @@ export const Main = styled.main`
         font-size: 120px;
         line-height: 98%
       }
+
+      small {
+        padding: 8px 0;
+        font-size: 14px;
+        
+        a {
+          color: #3484F7;
+          text-decoration: none;
+        }
+
+        span {
+          margin: 0 4px;
+          color: #333333;
+        }
+      }
     }
   }
 `
